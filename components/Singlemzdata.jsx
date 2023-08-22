@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import moment from 'moment';
-import ReactHtmlParser from 'react-html-parser';
-import { toast } from 'react-toastify';
 import Sidebar from './Sidebar';
 
 export class Singlemzdata extends Component {

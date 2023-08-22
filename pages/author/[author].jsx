@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 import Loader from '../../components/Loader';
-import ReactHtmlParser from 'react-html-parser';
+import parse from 'html-react-parser';
 import Sidebar from '../../components/Sidebar';
 import Link from 'next/link';
 import moment from 'moment';
@@ -56,7 +56,7 @@ function author({ post }) {
                     </div>
                     <div className="content">
                       <div className="b1 description">
-                        {ReactHtmlParser(post.description)}
+                        {parse(post.description)}
                       </div>
                     </div>
                   </div>

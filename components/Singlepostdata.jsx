@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-import ReactHtmlParser from 'react-html-parser';
+import parse from 'html-react-parser';
 import { toast } from 'react-toastify';
 import Sidebar from './Sidebar';
 import MoreStories from './MoreStories';
@@ -151,7 +151,7 @@ export class Singlepostdata extends Component {
               <div className="axil-post-details" style={{ marginTop: '50px' }}>
                 {this.props.post.first_peragraph}
                 <span style={{ marginTop: '50px' }}>
-                  {ReactHtmlParser(this.props.post.description)}
+                  {parse(this.props.post.description)}
                 </span>
                 {/* Start Author  */}
 
