@@ -1,0 +1,25 @@
+{
+  "name": "eamagz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@loadable/component": "^5.15.3",
+    "moment": "^2.29.4",
+    "next": "13.3.1",
+    "node-fetch": "^2.6.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-html-parser": "^2.0.2",
+    "react-image-file-resizer": "^0.4.8",
+    "react-owl-carousel": "^2.3.3",
+    "react-responsive-modal": "^6.4.1",
+    "react-router-dom": "^6.11.0",
+    "react-toastify": "^9.1.2"
+  }
+}
